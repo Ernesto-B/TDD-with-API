@@ -1,0 +1,12 @@
+GET http://localhost:3000/posts
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/posts?userId=2
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/post/1
+Content-Type: application/json
