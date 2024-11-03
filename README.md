@@ -46,7 +46,7 @@ This project is a demonstration of how to create a simple Express API that inter
    - This server will run on port `3000` by default.
 3. **Run the Tests** (Doesn't actually need the server to be running)
    ```bash
-   npm test
+    npm test
    ```
     - This will run the test suites using Jest.
     - The `Users API Tests with Mocks` will fail, since the /users endpoint in `index.js` does not exist. I kept it in the project for the purposes of keeping notes and showing examples.
